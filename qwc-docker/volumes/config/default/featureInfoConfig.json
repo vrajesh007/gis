@@ -1,0 +1,1114 @@
+{
+  "$schema": "https://github.com/qwc-services/qwc-feature-info-service/raw/2024-lts/schemas/qwc-feature-info-service.json",
+  "service": "feature-info",
+  "config": {
+    "default_qgis_server_url": "http://qwc-qgis-server/ows/",
+    "skip_empty_attributes": false
+  },
+  "resources": {
+    "wms_services": [
+      {
+        "name": "Aeroways_project",
+        "root_layer": {
+          "name": "Aeroways_project",
+          "title": "Aeroways project",
+          "layers": [
+            {
+              "name": "cafe",
+              "title": "cafes",
+              "attributes": [
+                {
+                  "name": "full_id"
+                },
+                {
+                  "name": "osm_id"
+                },
+                {
+                  "name": "osm_type"
+                },
+                {
+                  "name": "amenity"
+                },
+                {
+                  "name": "descriptio"
+                },
+                {
+                  "name": "ref"
+                },
+                {
+                  "name": "level_ref"
+                },
+                {
+                  "name": "operator_w"
+                },
+                {
+                  "name": "operator_1"
+                },
+                {
+                  "name": "operator"
+                },
+                {
+                  "name": "contact_tw"
+                },
+                {
+                  "name": "contact_fa"
+                },
+                {
+                  "name": "was_name"
+                },
+                {
+                  "name": "theme"
+                },
+                {
+                  "name": "payment_de"
+                },
+                {
+                  "name": "payment_cr"
+                },
+                {
+                  "name": "alt_name"
+                },
+                {
+                  "name": "safety_mas"
+                },
+                {
+                  "name": "drink_tea"
+                },
+                {
+                  "name": "diet_vegan"
+                },
+                {
+                  "name": "diet_glute"
+                },
+                {
+                  "name": "drink_espr"
+                },
+                {
+                  "name": "payment_di"
+                },
+                {
+                  "name": "payment_ca"
+                },
+                {
+                  "name": "payment_am"
+                },
+                {
+                  "name": "email"
+                },
+                {
+                  "name": "atm"
+                },
+                {
+                  "name": "toilets_un"
+                },
+                {
+                  "name": "toilets_ac"
+                },
+                {
+                  "name": "toilets"
+                },
+                {
+                  "name": "drink_coff"
+                },
+                {
+                  "name": "name_fa"
+                },
+                {
+                  "name": "short_name"
+                },
+                {
+                  "name": "delivery"
+                },
+                {
+                  "name": "air_condit"
+                },
+                {
+                  "name": "shop"
+                },
+                {
+                  "name": "name_es"
+                },
+                {
+                  "name": "contact_in"
+                },
+                {
+                  "name": "name_ja"
+                },
+                {
+                  "name": "brand_ja"
+                },
+                {
+                  "name": "brand_en"
+                },
+                {
+                  "name": "branch"
+                },
+                {
+                  "name": "diet_veget"
+                },
+                {
+                  "name": "addr_unit"
+                },
+                {
+                  "name": "drive_thro"
+                },
+                {
+                  "name": "smoking"
+                },
+                {
+                  "name": "bar"
+                },
+                {
+                  "name": "name_zh"
+                },
+                {
+                  "name": "name_en"
+                },
+                {
+                  "name": "payment_vi"
+                },
+                {
+                  "name": "payment_ma"
+                },
+                {
+                  "name": "addr_floor"
+                },
+                {
+                  "name": "toilets_wh"
+                },
+                {
+                  "name": "level"
+                },
+                {
+                  "name": "phone"
+                },
+                {
+                  "name": "internet_a"
+                },
+                {
+                  "name": "check_date"
+                },
+                {
+                  "name": "wheelchair"
+                },
+                {
+                  "name": "contact_we"
+                },
+                {
+                  "name": "takeaway"
+                },
+                {
+                  "name": "official_n"
+                },
+                {
+                  "name": "internet_1"
+                },
+                {
+                  "name": "cuisine"
+                },
+                {
+                  "name": "brand_wiki"
+                },
+                {
+                  "name": "brand"
+                },
+                {
+                  "name": "website"
+                },
+                {
+                  "name": "outdoor_se"
+                },
+                {
+                  "name": "opening_ho"
+                },
+                {
+                  "name": "name"
+                },
+                {
+                  "name": "addr_stree"
+                },
+                {
+                  "name": "addr_postc"
+                },
+                {
+                  "name": "addr_house"
+                },
+                {
+                  "name": "addr_city"
+                },
+                {
+                  "name": "gnis_revie"
+                },
+                {
+                  "name": "gnis_impor"
+                },
+                {
+                  "name": "gnis_featu"
+                },
+                {
+                  "name": "gnis_count"
+                },
+                {
+                  "name": "ele"
+                },
+                {
+                  "name": "addr_state"
+                },
+                {
+                  "name": "geometry"
+                },
+                {
+                  "name": "maptip"
+                }
+              ],
+              "display_field": "was_name"
+            },
+            {
+              "name": "polygons",
+              "title": "Airports",
+              "attributes": [
+                {
+                  "name": "full_id"
+                },
+                {
+                  "name": "osm_id"
+                },
+                {
+                  "name": "osm_type"
+                },
+                {
+                  "name": "aeroway"
+                },
+                {
+                  "name": "lacounty_b"
+                },
+                {
+                  "name": "lacounty_a"
+                },
+                {
+                  "name": "height"
+                },
+                {
+                  "name": "building"
+                },
+                {
+                  "name": "surface"
+                },
+                {
+                  "name": "rooftop"
+                },
+                {
+                  "name": "lit"
+                },
+                {
+                  "name": "layer"
+                },
+                {
+                  "name": "wikidata"
+                },
+                {
+                  "name": "variation"
+                },
+                {
+                  "name": "source_ref"
+                },
+                {
+                  "name": "source_dat"
+                },
+                {
+                  "name": "ref"
+                },
+                {
+                  "name": "phone"
+                },
+                {
+                  "name": "operator"
+                },
+                {
+                  "name": "note_accur"
+                },
+                {
+                  "name": "name"
+                },
+                {
+                  "name": "gnis_featu"
+                },
+                {
+                  "name": "gnis_fea_1"
+                },
+                {
+                  "name": "gnis_creat"
+                },
+                {
+                  "name": "gnis_count"
+                },
+                {
+                  "name": "faa"
+                },
+                {
+                  "name": "ele"
+                },
+                {
+                  "name": "closest_to"
+                },
+                {
+                  "name": "addr_state"
+                },
+                {
+                  "name": "accuracy"
+                },
+                {
+                  "name": "access"
+                },
+                {
+                  "name": "FAA_LFSN"
+                },
+                {
+                  "name": "type"
+                },
+                {
+                  "name": "geometry"
+                },
+                {
+                  "name": "maptip"
+                }
+              ],
+              "display_field": "name"
+            },
+            {
+              "name": "lines",
+              "title": "Roads",
+              "attributes": [
+                {
+                  "name": "full_id"
+                },
+                {
+                  "name": "osm_id"
+                },
+                {
+                  "name": "osm_type"
+                },
+                {
+                  "name": "service"
+                },
+                {
+                  "name": "junction"
+                },
+                {
+                  "name": "bicycle"
+                },
+                {
+                  "name": "highway"
+                },
+                {
+                  "name": "wheelchair"
+                },
+                {
+                  "name": "motorcycle"
+                },
+                {
+                  "name": "parking_co"
+                },
+                {
+                  "name": "parking_la"
+                },
+                {
+                  "name": "parking__1"
+                },
+                {
+                  "name": "parking__2"
+                },
+                {
+                  "name": "parking__3"
+                },
+                {
+                  "name": "parking__4"
+                },
+                {
+                  "name": "status"
+                },
+                {
+                  "name": "change_for"
+                },
+                {
+                  "name": "change_bac"
+                },
+                {
+                  "name": "parking__5"
+                },
+                {
+                  "name": "parking__6"
+                },
+                {
+                  "name": "parking__7"
+                },
+                {
+                  "name": "parking__8"
+                },
+                {
+                  "name": "parking__9"
+                },
+                {
+                  "name": "parking_10"
+                },
+                {
+                  "name": "parking_11"
+                },
+                {
+                  "name": "parking_12"
+                },
+                {
+                  "name": "parking_13"
+                },
+                {
+                  "name": "parking_14"
+                },
+                {
+                  "name": "parking_15"
+                },
+                {
+                  "name": "parking_16"
+                },
+                {
+                  "name": "parking_17"
+                },
+                {
+                  "name": "parking_18"
+                },
+                {
+                  "name": "parking_19"
+                },
+                {
+                  "name": "parking_20"
+                },
+                {
+                  "name": "parking_21"
+                },
+                {
+                  "name": "parking_22"
+                },
+                {
+                  "name": "golf"
+                },
+                {
+                  "name": "crossing_s"
+                },
+                {
+                  "name": "cutting"
+                },
+                {
+                  "name": "tactile_pa"
+                },
+                {
+                  "name": "handrail"
+                },
+                {
+                  "name": "disused_hi"
+                },
+                {
+                  "name": "placement_"
+                },
+                {
+                  "name": "bicycle_la"
+                },
+                {
+                  "name": "access_con"
+                },
+                {
+                  "name": "emergency"
+                },
+                {
+                  "name": "rideshare"
+                },
+                {
+                  "name": "parking_le"
+                },
+                {
+                  "name": "parking_23"
+                },
+                {
+                  "name": "amenity"
+                },
+                {
+                  "name": "check_date"
+                },
+                {
+                  "name": "surface_no"
+                },
+                {
+                  "name": "check_da_1"
+                },
+                {
+                  "name": "ref_legisl"
+                },
+                {
+                  "name": "cycleway_l"
+                },
+                {
+                  "name": "footway_su"
+                },
+                {
+                  "name": "cycleway_s"
+                },
+                {
+                  "name": "lanes_psv_"
+                },
+                {
+                  "name": "lanes_ps_1"
+                },
+                {
+                  "name": "cyclestree"
+                },
+                {
+                  "name": "footway"
+                },
+                {
+                  "name": "crossing_i"
+                },
+                {
+                  "name": "constructi"
+                },
+                {
+                  "name": "psv"
+                },
+                {
+                  "name": "lanes_bus_"
+                },
+                {
+                  "name": "trail_visi"
+                },
+                {
+                  "name": "cycleway_r"
+                },
+                {
+                  "name": "level_ref"
+                },
+                {
+                  "name": "level"
+                },
+                {
+                  "name": "wikidata"
+                },
+                {
+                  "name": "crossing_m"
+                },
+                {
+                  "name": "crossing"
+                },
+                {
+                  "name": "dog"
+                },
+                {
+                  "name": "FIXME_lane"
+                },
+                {
+                  "name": "old_ref_le"
+                },
+                {
+                  "name": "name_etymo"
+                },
+                {
+                  "name": "cycleway_1"
+                },
+                {
+                  "name": "name_right"
+                },
+                {
+                  "name": "sidewalk_l"
+                },
+                {
+                  "name": "toll"
+                },
+                {
+                  "name": "bus"
+                },
+                {
+                  "name": "lanes_bus"
+                },
+                {
+                  "name": "wikipedia"
+                },
+                {
+                  "name": "lanes_bu_1"
+                },
+                {
+                  "name": "horse"
+                },
+                {
+                  "name": "motor_vehi"
+                },
+                {
+                  "name": "source_ref"
+                },
+                {
+                  "name": "source_max"
+                },
+                {
+                  "name": "source_wid"
+                },
+                {
+                  "name": "check_da_2"
+                },
+                {
+                  "name": "noname"
+                },
+                {
+                  "name": "not_name"
+                },
+                {
+                  "name": "noexit"
+                },
+                {
+                  "name": "source_r_1"
+                },
+                {
+                  "name": "cycleway_2"
+                },
+                {
+                  "name": "cycleway_3"
+                },
+                {
+                  "name": "destinatio"
+                },
+                {
+                  "name": "rollerblad"
+                },
+                {
+                  "name": "covered"
+                },
+                {
+                  "name": "note_lanes"
+                },
+                {
+                  "name": "source_nam"
+                },
+                {
+                  "name": "source_r_2"
+                },
+                {
+                  "name": "source_bri"
+                },
+                {
+                  "name": "ramp_speed"
+                },
+                {
+                  "name": "bridge_ref"
+                },
+                {
+                  "name": "bridge_nam"
+                },
+                {
+                  "name": "symbol"
+                },
+                {
+                  "name": "maxspeed_t"
+                },
+                {
+                  "name": "maxheight"
+                },
+                {
+                  "name": "placemen_1"
+                },
+                {
+                  "name": "maxspeed_1"
+                },
+                {
+                  "name": "maxspeed_h"
+                },
+                {
+                  "name": "hov_lanes"
+                },
+                {
+                  "name": "destinat_1"
+                },
+                {
+                  "name": "destinat_2"
+                },
+                {
+                  "name": "change_lan"
+                },
+                {
+                  "name": "access_lan"
+                },
+                {
+                  "name": "highway_1"
+                },
+                {
+                  "name": "source_hgv"
+                },
+                {
+                  "name": "hgv_nation"
+                },
+                {
+                  "name": "tunnel_ref"
+                },
+                {
+                  "name": "tunnel_nam"
+                },
+                {
+                  "name": "tunnel"
+                },
+                {
+                  "name": "source_r_3"
+                },
+                {
+                  "name": "source_tun"
+                },
+                {
+                  "name": "milepost_c"
+                },
+                {
+                  "name": "is_in_stat"
+                },
+                {
+                  "name": "FIXME_bicy"
+                },
+                {
+                  "name": "opening_da"
+                },
+                {
+                  "name": "cycleway_4"
+                },
+                {
+                  "name": "source_m_1"
+                },
+                {
+                  "name": "maxspeed_a"
+                },
+                {
+                  "name": "postal_cod"
+                },
+                {
+                  "name": "addr_stree"
+                },
+                {
+                  "name": "addr_state"
+                },
+                {
+                  "name": "addr_house"
+                },
+                {
+                  "name": "addr_city"
+                },
+                {
+                  "name": "shoulder"
+                },
+                {
+                  "name": "turn_lanes"
+                },
+                {
+                  "name": "descriptio"
+                },
+                {
+                  "name": "direction"
+                },
+                {
+                  "name": "destinat_3"
+                },
+                {
+                  "name": "destinat_4"
+                },
+                {
+                  "name": "turn_lan_1"
+                },
+                {
+                  "name": "lanes_both"
+                },
+                {
+                  "name": "tiger_zip_"
+                },
+                {
+                  "name": "addr_postc"
+                },
+                {
+                  "name": "maxweight_"
+                },
+                {
+                  "name": "maxweigh_1"
+                },
+                {
+                  "name": "tiger_name"
+                },
+                {
+                  "name": "tiger_na_1"
+                },
+                {
+                  "name": "source_r_4"
+                },
+                {
+                  "name": "source_m_2"
+                },
+                {
+                  "name": "source_lan"
+                },
+                {
+                  "name": "source_h_1"
+                },
+                {
+                  "name": "ref"
+                },
+                {
+                  "name": "official_n"
+                },
+                {
+                  "name": "loc_name"
+                },
+                {
+                  "name": "hgv_state_"
+                },
+                {
+                  "name": "hgv"
+                },
+                {
+                  "name": "expressway"
+                },
+                {
+                  "name": "cycleway_5"
+                },
+                {
+                  "name": "cycleway_6"
+                },
+                {
+                  "name": "traffic_si"
+                },
+                {
+                  "name": "alt_name"
+                },
+                {
+                  "name": "cycleratin"
+                },
+                {
+                  "name": "name_left"
+                },
+                {
+                  "name": "source_ima"
+                },
+                {
+                  "name": "sidewalk_r"
+                },
+                {
+                  "name": "cycleway_b"
+                },
+                {
+                  "name": "cycleway_7"
+                },
+                {
+                  "name": "sidewalk_b"
+                },
+                {
+                  "name": "tiger_zi_1"
+                },
+                {
+                  "name": "turn_lan_2"
+                },
+                {
+                  "name": "lanes_forw"
+                },
+                {
+                  "name": "lanes_back"
+                },
+                {
+                  "name": "tiger_uplo"
+                },
+                {
+                  "name": "maxweight"
+                },
+                {
+                  "name": "motor_ve_1"
+                },
+                {
+                  "name": "source_typ"
+                },
+                {
+                  "name": "oneway_bic"
+                },
+                {
+                  "name": "tiger_na_2"
+                },
+                {
+                  "name": "tiger_na_3"
+                },
+                {
+                  "name": "tiger_na_4"
+                },
+                {
+                  "name": "name_1"
+                },
+                {
+                  "name": "sidewalk_1"
+                },
+                {
+                  "name": "odbl"
+                },
+                {
+                  "name": "width"
+                },
+                {
+                  "name": "tracktype"
+                },
+                {
+                  "name": "smoothness"
+                },
+                {
+                  "name": "mtb_scale_"
+                },
+                {
+                  "name": "mtb_scal_1"
+                },
+                {
+                  "name": "mtb_scale"
+                },
+                {
+                  "name": "incline"
+                },
+                {
+                  "name": "sidewalk_2"
+                },
+                {
+                  "name": "tiger_na_5"
+                },
+                {
+                  "name": "sidewalk_3"
+                },
+                {
+                  "name": "old_name"
+                },
+                {
+                  "name": "lane_marki"
+                },
+                {
+                  "name": "sidewalk"
+                },
+                {
+                  "name": "cycleway"
+                },
+                {
+                  "name": "tiger_tlid"
+                },
+                {
+                  "name": "tiger_sour"
+                },
+                {
+                  "name": "tiger_sepa"
+                },
+                {
+                  "name": "tiger_na_6"
+                },
+                {
+                  "name": "tiger_zi_2"
+                },
+                {
+                  "name": "tiger_zi_3"
+                },
+                {
+                  "name": "unsigned_r"
+                },
+                {
+                  "name": "name_signe"
+                },
+                {
+                  "name": "destinat_5"
+                },
+                {
+                  "name": "maxspeed_2"
+                },
+                {
+                  "name": "lit"
+                },
+                {
+                  "name": "cycleway_8"
+                },
+                {
+                  "name": "access"
+                },
+                {
+                  "name": "turn_lan_3"
+                },
+                {
+                  "name": "source_r_5"
+                },
+                {
+                  "name": "tiger_revi"
+                },
+                {
+                  "name": "junction_r"
+                },
+                {
+                  "name": "tiger_na_7"
+                },
+                {
+                  "name": "tiger_na_8"
+                },
+                {
+                  "name": "tiger_coun"
+                },
+                {
+                  "name": "tiger_cfcc"
+                },
+                {
+                  "name": "old_ref__1"
+                },
+                {
+                  "name": "old_ref"
+                },
+                {
+                  "name": "segregated"
+                },
+                {
+                  "name": "foot"
+                },
+                {
+                  "name": "placement"
+                },
+                {
+                  "name": "layer"
+                },
+                {
+                  "name": "junction_u"
+                },
+                {
+                  "name": "destinat_6"
+                },
+                {
+                  "name": "destinat_7"
+                },
+                {
+                  "name": "bridge"
+                },
+                {
+                  "name": "surface"
+                },
+                {
+                  "name": "lanes"
+                },
+                {
+                  "name": "oneway"
+                },
+                {
+                  "name": "name"
+                },
+                {
+                  "name": "maxspeed"
+                },
+                {
+                  "name": "abutters"
+                },
+                {
+                  "name": "geometry"
+                },
+                {
+                  "name": "maptip"
+                }
+              ],
+              "display_field": "name_etymo"
+            },
+            {
+              "name": "positron",
+              "title": "Positron"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
